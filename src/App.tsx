@@ -1,16 +1,10 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Timer from './pages/Timer';
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Routes>
-          <Route path="/" element={<Timer />} />
-        </Routes>
-      </div>
-    </Router>
+    <div className="flex min-h-screen items-center justify-center bg-gray-100">
+      <h1 className="text-3xl font-bold text-blue-600">React + Vite + Tailwind</h1>
+    </div>
   );
 }
 
