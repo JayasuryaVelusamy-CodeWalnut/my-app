@@ -1,11 +1,7 @@
-import './App.css';
+import Timer from './pages/timer';
 
 function App() {
-  return (
-    <div className="flex min-h-screen items-center justify-center bg-gray-100">
-      <h1 className="text-3xl font-bold text-blue-600">React + Vite + Tailwind</h1>
-    </div>
-  );
+  return <Timer />;
 }
 
 export default App;
